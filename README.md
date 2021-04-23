@@ -1,6 +1,7 @@
 # cerebellum_autism_DEBC_model
 Cortico-Cerebellar Hyper-Connections and Reduced Purkinje Cells Behind Abnormal Eyeblink Conditioning in Autism
 
+Importantly, use python 2.7 to run the model.
 To run the simulation, run the experiment file of each group. The software will generate activity files for all areas.
 
 After generating the experiment file, within the folders of the two groups create a file "fr_max.txt" that contains the ideal firing rate values of M1 with respect to 100% correct responses during all sessions. Create this file before launching the CR calculation file. Use the cr_calculation_control.py file to calculate the CR of the control group and cr_calculation_ASD.py, to calculate the CR of the ASD group.
