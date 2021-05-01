@@ -78,7 +78,7 @@ for n_mice in range(0, number_of_mice):
         # file nr 0 granular cells line motor
         output_file_name.append( "output_gm_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv")
         # file nr 1 granular cells line cognitive
-        output_file_name.append( "output_gs_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv")
+        output_file_name.append( "output_gc_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv")
         # file nr 2 io line motor
         output_file_name.append( "output_im_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv")
         # file nr 3 io line cognitive
