@@ -108,7 +108,7 @@ for n_mice in range(0, number_of_mice):
         # file nr 15
         output_file_name.append( "output_mc_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv") #sender m1
         # file nr 16
-        output_file_name.append( "output_pc_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv") #sender pfc
+        output_file_name.append( "output_px_"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv") #sender pfc
         # file nr 17
         output_file_name.append( "output_pj_m"+ str(time_run) +"_ISI_"+str(ISI)+"Session_"+str(count)+".csv") #potential and time pj line motor       
         # file nr 18
